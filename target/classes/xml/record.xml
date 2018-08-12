@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record size="303">
+    <attribute-list>
+        <attribute name="record_code" size="3" type="num"/>
+        <attribute name="client_type" size="4" type="num"/>
+        <attribute name="client_number" size="4" type="num"/>
+        <attribute name="account_number" size="4" type="num"/>
+        <attribute name="sub_account_number" size="4" type="num"/>
+        <attribute name="opposite_party_code" size="6" type="num"/>
+        <attribute name="product_group_code" size="2" type="num"/>
+        <attribute name="exchange_code" size="4" type="num"/>
+        <attribute name="symbol" size="6" type="num"/>
+        <attribute name="expiration_date" size="8" type="num"/>
+        <attribute name="currency_code" size="3" type="num"/>
+        <attribute name="movement_code" size="2" type="num"/>
+        <attribute name="buy_sell_code" size="1" type="num"/>
+        <attribute name="quantity_long_sign" size="1" type="num"/>
+        <attribute name="quantity_long" size="10" type="num"/>
+        <attribute name="quantity_short_sign" size="1" type="num"/>
+        <attribute name="quantity_short" size="10" type="num"/>
+        <attribute name="exch_broker_fee_dec" size="12" type="num"/>
+        <attribute name="exch_broker_fee_d_c" size="1" type="num"/>
+        <attribute name="exch_broker_fee_cur_code" size="3" type="num"/>
+        <attribute name="clearing_fee_dec" size="12" type="num"/>
+        <attribute name="clearing_fee_d_c" size="1" type="num"/>
+        <attribute name="clearing_fee_cur_code" size="3" type="num"/>
+        <attribute name="commission" size="12" type="num"/>
+        <attribute name="commission_d_c" size="1" type="num"/>
+        <attribute name="commission_cur_code" size="3" type="num"/>
+        <attribute name="transaction_date" size="8" type="num"/>
+        <attribute name="future_reference" size="6" type="num"/>
+        <attribute name="ticket_number" size="6" type="num"/>
+        <attribute name="external_number" size="6" type="num"/>
+        <attribute name="transaction_price_dec" size="15" type="num"/>
+        <attribute name="trader_initials" size="6" type="num"/>
+        <attribute name="opposite_trader_id" size="7" type="num"/>
+        <attribute name="open_close_code" size="1" type="num"/>
+    </attribute-list>
+</record>
